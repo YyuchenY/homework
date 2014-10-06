@@ -1,0 +1,24 @@
+.wrap{
+	height: 500px;
+	width: 800px;
+	margin: 0 auto;
+}
+.header{
+	height: 150px;
+	background-color:red;
+	position: relative;
+}
+.header h1{
+	width: 308px;
+	height: 69px;
+	position: absolute;
+	left: 20px;
+	top:10px;
+
+}
+.header a{
+	width: 308px;
+	height: 69px;
+	background: url(../week4/images/logo.png);
+	display: block; *要寫不然會無法顯示背景圖，因為a 是行內
+}
